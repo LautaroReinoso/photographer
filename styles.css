@@ -1,0 +1,2518 @@
+@font-face {
+font-family: "MONTSERRAT-BOLD";
+src: url("../fonts/MONTSERRAT-BOLD.TTF")format("truetype");
+}
+@font-face {
+font-family: "MONTSERRAT-LIGHT";
+src: url("../fonts/MONTSERRAT-LIGHT.TTF" )format("truetype");
+}
+
+@font-face {
+font-family: "MONTSERRAT-SEMIBOLD";
+src: url("../fonts/MONTSERRAT-SEMIBOLD.TTF" )format("truetype");
+}
+
+
+
+
+
+
+
+
+#logo {
+    max-width: 100%;
+/*    border-radius: 100%;*/
+    margin: 0 auto;
+        width: 280px;
+        margin-top: 2%;
+        margin-bottom: 3%;
+}
+
+
+#sociallinksmobile{
+    display: none;
+}
+
+#inicio{
+    margin-top: 6%;
+}
+
+
+.container-fluid{
+    overflow: hidden;
+}
+
+
+/*Footer*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+#contacto{
+    background-color: white;
+}
+/*End Footer*/
+
+
+
+
+
+
+/*Nuevo Nav*/
+
+/*alteracoes da barra de navegacao principal*/
+
+.navbar-inverse {
+    background: black;
+    border-bottom: 20px solid #B0EDEA;
+    color: black;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+    color: black;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav> ul >li,
+.navbar-inverse .navbar-nav>li.focus>a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active >a:visited,
+.navbar-inverse .navbar-nav>li:hover>a:hover {
+
+    
+    color: black;
+
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.btn { border-radius: 25px; }
+.text-dark {color: #B0EDEA;}
+.text-light{color: #B0EDEA;}
+.text16 {font-size: 16px;}
+
+
+
+nav.navbar.navbar-default.navbar-inverse.navbarnofixed
+{
+    background: white;
+    border-color: white;
+    border-bottom-width: 0px;
+}
+
+.socialarrowheaders{
+    padding-bottom: 1em;
+}
+
+
+
+
+.contactheader
+{
+    width: 21%;
+}
+/*Fin nuevo nav*/
+
+/*inicio Prueba */
+
+#pruebarow{
+    height: 500px;
+    background: #87C6B0;
+ }
+ 
+
+#prueba{
+   /* width: 800px;
+    height: 370px;*/
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30); 
+        z-index: 1;
+        /*position: absolute;*/
+ 
+       /* margin-left: 57.8%;
+        margin-top: 10%;  */ 
+ }
+ 
+
+
+/*Fin Prueba*/
+
+
+/*inicio PORTADA */
+
+#PORTADA {
+
+    margin-bottom: 8%;
+
+}
+
+#blockPORTADAyellow{
+       
+    margin-left: 95%;
+    margin-top: 39.5%;
+    z-index: 3;
+}
+
+#blockPORTADAgreen{
+       
+    margin-left: 91%;
+    margin-top: 40%;
+    z-index: 3;
+}
+
+
+
+#blockmsjtransp {
+    width: 43%;
+        height: 312px;
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    z-index: 1;
+    position: absolute;
+    margin-left: 57.8%;
+    margin-top: -33%;
+    display: inline;
+}
+
+
+
+
+#InBlockTransp{
+   width: 800px;
+   height: 370px;
+       z-index: 1;
+       position: absolute;
+
+       margin-left: 57.8%;
+       margin-top: 10%;  
+}
+#portadaphoto 
+{
+    float: left;
+   
+}
+
+#textoportada{
+
+    font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 61%;
+    right: 15%;
+    margin-top: 13%;
+    color: white;
+    font-size: 3.2em;
+    z-index: 2;
+    width: 19%;
+    line-height: 1.2em;
+}
+
+#linetextoportada{
+   font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 61%;
+    right: 15%;
+    margin-top: inherit;
+    color: white;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    z-index: 2 !important;
+    width: 4.2%;
+    top: 652px;
+}
+.portadalineposition{
+
+    left: 61%;
+    top: 15%;
+    margin-top: initial;
+    z-index: 2 !important;
+
+}
+
+
+
+/*Fin PORTADA*/
+
+
+.imgcar{
+    cursor: pointer;
+}
+
+
+/*Inicio  ABOUT ME*/
+
+#conteineraboutme{
+
+    margin-top: 15%;
+
+}
+
+#columna1aboutme{
+
+    display:flex;
+    align-items: center;
+}
+#aboutme{
+    display:block;
+    align-items: center;
+}
+
+.samehight {
+
+    /* display: table-cell;
+    float: none ; 
+    padding: 0% !important;
+    align-content: center; */
+    height: 900px; 
+
+}
+#aboutmesection {
+
+   margin-bottom: 10%;
+   height: 100%;  /*no recuerdo si va o no va*/
+    
+}
+
+.firstmargin{
+
+    margin-top: 10%;
+
+}
+
+#aboutmetitle{
+
+    margin-top: 12%;
+    margin-bottom: 1%;
+    font-size: 2.25em !important;
+}
+
+#aboutmeText_1{
+
+    margin-top: 10%
+}
+
+#blockme{
+
+    margin-top: 5%;
+}
+
+.aboutmeline{
+
+    margin-left: 37%;
+
+}
+
+.aboutmemargins{
+
+    /* margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 15%;
+    margin-left: 15%; */
+    /* display: inline-block; */
+
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+    /* margin: 20%; */
+    /* width: 60%; */
+    /* height: auto; */
+}
+
+/*Fin ABOUT ME*/
+
+/*inicio Cuadricula*/
+
+
+
+.cuadricula_margins{
+
+    margin: auto;
+
+    }
+
+#cuadricula_first_row{
+
+    margin-bottom: 3%; 
+    margin-left: 1.5%;
+}
+
+#cuadricula_second_row{
+
+    margin-bottom: 10%; 
+    margin-left: 1.5%;
+}
+
+.hoverscuadricula{
+
+    font-family: "MONTSERRAT-LIGHT";
+    color:white;
+    margin-top: 23.7%;
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
+    /* word-spacing: 0.1em; */
+     
+
+}
+#blockgreencuadricula1{
+
+    z-index: 3;
+    left: 11%;
+    top: -15px;
+
+}
+
+#blockgreen2cuadricula1{
+
+    z-index: 3;
+    left: 7px;
+    top: 85%;
+
+}
+
+#blockyellowcuadricula2{
+
+    z-index: 3;
+    left: 5%;
+    top: 93%;
+}
+
+#blockgreencuadricula3{
+    
+    z-index: 3;
+    left: 13%;
+    top: 97%;
+}
+#blockyellow1cuadricula3{
+    
+    z-index: 3;
+    left: 6%;
+    top: -5%;
+}
+#blockyellow2cuadricula3{
+    
+    z-index: 3;
+    left: 85%;
+    top: 94%;
+
+}
+
+
+
+
+#blockgreen1cuadricula4{
+    
+    z-index: 3;
+    left: 149px;
+    top: -3%;
+
+}
+
+
+#blockgreen2cuadricula4{
+    
+    z-index: 3;
+    left: 89%;
+    top: 96%;
+}
+
+
+/*Fin Cuadricula*/
+
+/*inicio maternidad*/
+
+#maternity {
+
+    margin-bottom: 22%;
+    
+}
+
+.maternitymargins {
+
+/*   padding: 2%;*/
+
+    
+}
+
+.maternitytitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    display: inline;
+    
+}
+
+#blockmaternitygreen{
+
+    z-index: 3;
+    left: 35%;
+        margin-top: 70.3%;
+    width: 40px;
+    height: 40px;
+
+}
+
+#blockmaternityyellow{
+    
+    z-index: 3;
+    left: 76px;
+margin-top: -35px;
+}
+
+#maternidadline {
+        margin-top: 50px;
+    width: 71px;
+    display: inline;
+    margin-left: -336px;
+}
+
+#newbornline {
+    margin-top: -28%;
+    width: 71px;
+    display: inline;
+    margin-left: 25.7%;
+}
+
+
+#maternity_title
+{text-align: center;
+    margin-top: 18%;
+}
+
+
+
+/*Fin maternidad*/
+
+/*inicio recien nacidos*/
+
+#newborn {
+
+    margin-bottom: 22%; 
+
+}
+
+#newborn_title {
+
+
+}
+
+#columna1newborn {
+
+
+    }
+
+
+
+.newborntitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
+}
+
+
+#blocknewborngreen{
+
+    z-index: 3;
+    left: 76px;
+    top: -2%;
+
+}
+
+#blocknewbornyellow{
+
+   z-index: 3;
+    left: 91%;
+    top: 10%;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+#newborn_title {
+margin-top: 19%;
+    text-align: center;
+}
+#newbornline {
+    margin-top: 50px;
+    width: 71px;
+    display: inline;
+    margin-left: -437px;
+}
+
+.newborntitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
+}
+
+
+/*Fin recien nacidos*/
+
+
+
+
+/*between*/
+
+
+.spacequad{
+    display: inline-block;
+}
+
+#greenbetweensq {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    left: 92%;
+    margin-top: -16%;
+}
+
+#yellowbetweensq {
+    display: inline-block;
+    margin-top: -181px;
+    left: 51%;
+    width: 90px;
+    height: 90px;
+}
+
+
+#blockentre1yellow{
+    display: inline-block;
+    margin-top: -17%;
+    left: 4%;
+}
+
+
+#blockentre2yellow{
+    display: inline-block;
+    margin-top: -10%;
+    left: 89%;
+    width: 90px;
+    height: 90px;
+}
+
+
+/*fin between*/
+
+
+
+
+/*inicio niños*/
+
+#children{
+
+    margin-bottom: 22%;  
+
+}
+
+.newbornmargins,.childrenmargins,.familymargins {
+
+/*   padding: 2%;*/
+        
+     } 
+
+.childrentitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
+}
+
+
+#blockchildrengreen{
+    z-index: 3;
+    left: -22%;
+    margin-top: 69.6%;
+}
+
+#blockchildrenyellow{
+
+    z-index: 3;
+     left: -82%; 
+    margin-top: 0%;
+    top: 93.3%;
+
+}
+
+
+#children_title {
+margin-top: 18%;
+    text-align: center;
+}
+
+
+.childrentitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
+}
+
+
+#childrenline {
+    margin-top: 50px;
+    width: 71px;
+    display: inline;
+    margin-left: -161px;
+}
+
+
+
+
+
+/*Fin niños*/
+
+
+/*inicio familia*/
+
+#family{
+
+    margin-bottom: 15%;  
+
+}
+
+
+.familytitle{
+
+    margin-top: 35%;
+    margin-bottom:30%;
+    
+}
+
+
+
+#family_title {
+margin-top: 18%;
+    text-align: center;
+}
+
+
+.familytitle{
+    margin-top: 35%;
+    margin-bottom: 30%;
+    display: inline;
+}
+
+
+#familyline {
+    margin-top: 50px;
+    width: 71px;
+    display: inline;
+    margin-left: -208px;
+}
+
+/*Fin familia*/
+
+
+#greenrow{
+    height: 40px;
+    background: #87C6B0;
+    margin-bottom: 11%;
+    width: 97%;
+    margin-left: 1.4%
+ }
+
+
+
+
+
+
+.mysections {
+
+   /* height: 10px;*/
+
+}
+
+#btnmenubar
+{
+    background: white;
+    border-color: #B0EDEA;
+    z-index: 999999;
+}
+.iconbar {
+    background-color: black !important;
+    z-index: 999999 !important;
+}
+
+#btnmenubar:hover
+{
+    background: white;
+    border-color: #B0EDEA;
+    z-index: 999999;
+}
+
+
+
+.header
+{
+    position: relative; 
+    width: 100%;
+    height: 100%;
+        margin-top: 1em;
+
+}
+
+#instimage
+{
+    max-width: 37px;
+    margin-bottom: 22px;
+    max-height: 42px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.thumbnail .caption {
+    padding: 10% !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.presentationtext
+    {
+           font-family: "Raleway-Light";
+    font-size: 1.78em;
+    text-align: justify;
+    letter-spacing: 0.2em;
+    margin-top: 1.6em;
+        position: relative;
+    right: 2%;
+    }
+
+#presentation
+{
+        position: relative;
+    left: 1.3%;
+    margin-top: 8.5%;
+    display: inline-block;
+    z-index: 999999;
+    
+}
+
+.navbar-right {
+    float: right;
+}
+
+
+
+#hrstroke {
+    border: 0;
+    border-top: 3px solid white;
+    width: 39.5%;
+    /* height: 500px; */
+    margin-left: 0%;
+        margin-top: 10px;
+}
+
+.vl {
+      border-left: 4px solid #A5D5DE;
+    height: 6.4em;
+    display: inline-block;
+    margin-right: 1.2em;
+}
+.mediatext{
+     display: inline-block;
+}
+
+
+#miform{
+    text-align: center;
+        margin-top: -5%;
+}
+
+.form-group {
+
+/*
+    text-align: center;
+    width: 38%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    left: 27%;
+    font-size: 1.5em;
+    height: 3em;
+*/
+    
+    width: 100%;
+    font-size: 1.5em;
+    height: 3em;
+    
+    margin-bottom: 6%;
+}
+
+#lblcomment{
+    margin-bottom: 27px;
+        left: 0.3%;
+}
+
+.form-horizontal .control-label {
+    font-family: "MONTSERRAT-LIGHT";
+    letter-spacing: 0.2em;
+    padding-top: 7px;
+/*    margin-bottom: -1px;*/
+        margin-bottom: -31px;
+
+    text-align: center;
+    width: 59%;
+    float: left;
+    
+}
+.form-control{
+        height: 3em;
+    border-radius: 0px;
+}
+.form-control-feedback {
+    line-height: 90px;
+}
+
+#comment+span{
+    line-height: 24px;
+}
+
+
+#labelemail{
+        left: -3%;
+}
+
+#subdiv{
+        margin-top: 9em;
+        margin-bottom: 6em;
+}
+#btnsubmit{
+    font-size: 2em;
+    padding: 6px 224px;
+    text-align: center;
+border-radius: 0px;
+    margin-left: 33%;
+    width: 496px;
+    padding: inherit;
+    padding-bottom: 6px;
+    float: left;
+    margin-top: 3%;
+        
+}
+
+#contactlabel{
+        margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: "MONTSERRAT-BOLD";
+    letter-spacing: 0.2em;
+    font-size: 4em;
+        color: #ffc880;
+    display: inline;
+}
+
+#contactline{
+    width: 81px;
+        display: inline;
+    margin-left:200px;
+    background: #87C6B0;
+}
+
+#titleform{
+    margin-bottom: 5%;
+}
+
+.noresize {
+  resize: none; 
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    right: -150px;
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+}
+#limitmenuphone{
+    display: none;
+}
+
+.famenu{
+    display: none;
+}
+
+/* Safari 10.1+ (alternate method) */
+
+                @media not all and (min-resolution:.001dpcm) {
+                    @supports (-webkit-appearance:none) {
+
+                                    #institutionaltext2{
+                                        top:54%;
+                                    }
+                    }
+                }
+
+
+
+
+
+.cabeceramodal{
+    background: #E5F3F6;
+    font-family: "Raleway-light";
+    letter-spacing: 0.3em;
+}
+.titulomodal{
+    font-weight: bold;
+}
+
+.cuerpomodal{
+    font-family: "Raleway-regular";
+/*    letter-spacing: 0.3em;*/
+}
+#botonaceptar{
+    background-color: rgb(39,42,76);
+}
+.footermodal{
+    border-top: 0px solid #e5e5e5;
+}
+
+
+
+#myModal{
+        margin-top: 15%;
+    z-index: 99999999;
+}
+
+
+.cabeceramodal{
+border-radius: 50%;
+    text-align: center;
+    width: 41%;
+    margin-left: 29%;
+    margin-top: -5%;
+
+}    
+.dialogomodal{
+    border-radius: 50% !important;
+}
+.contenidomodal{
+border-radius: 50%;
+}
+
+#cruzcerrar {
+    margin-top: 3px;
+}
+
+#botonaceptar{
+    float: left;
+    margin-left: 43%;
+}
+
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-right {
+    float: none !important;
+    margin-right: 0px;
+    text-align: center;
+    margin: 0 auto !important;
+    display: inline !important;
+}
+
+.navbar-nav>li {
+      float: none;
+    text-align: center;
+    display: inline;
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 120%;
+font-size: 130%;
+    margin-left: 3%;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    columns: #616160;
+    display: inline;
+    text-align: center !important;
+}
+
+#sociallinks{
+       position: absolute;
+    top: 7%;
+    margin-left: 39%;
+    width: 100%;
+}
+
+#lastsocial{
+        text-align: center;
+    margin-left: -314px;
+        margin-top: 1%;
+}
+
+.blockgreen{
+      width: 33px;
+    height: 33px;
+    background-color: #80bca6;
+    position: absolute;
+    
+}
+
+#blockheader{
+    margin-left: 3.6%;
+    margin-top: -3%;
+    
+}
+
+#sociallinks>a>img{
+    margin-right: 1%;
+}
+
+.pharagraphs{
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 1.3em;
+    color: #616160;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    width: 86%;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+    line-height:200%
+
+    
+}
+
+.greentitles{
+    color: #80bca6;
+    font-family: "MONTSERRAT-BOLD";
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+    font-size: 2.6em;
+    /*margin: auto;*/
+}
+
+
+
+
+.blockyellow{
+     width: 70px;
+    height: 70px;
+    background-color: #ffc880;
+        z-index: 1;
+        position: absolute;
+
+
+}
+
+
+
+#blockheaderyellow {
+       
+    margin-left: 6.8%;
+    margin-top: -1.9%;
+}
+
+
+
+#top{
+        margin-bottom: 3em;
+}
+
+
+
+.myline{
+    width: 59px;
+    height: 8px;
+    z-index: 1;
+    position: absolute;
+    
+}
+.yellowline{
+    background-color: rgb(255, 200, 128);
+}
+
+
+
+#blockaboutmegreen{
+    margin-left: 12%;
+    margin-top: -39%;
+}
+
+.blockyellowmedium{
+     width: 53px;
+    height: 53px;
+    background-color: #ffc880;
+    position: absolute;
+}
+
+#blockaboutmeyellow{
+    margin-top: 39%;
+    margin-left: 84%;
+}
+
+#columna1{
+/*    width: 100%;*/
+    height: 100%;
+    background: blue;
+}
+
+#columna2{
+/*    width: 100%;*/
+    height: 100%;
+    background: red;
+}
+
+.miclase{
+    display: inline-block;
+}
+
+
+
+input[type=text],input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    -webkit-box-shadow: none;
+     box-shadow: none; 
+    -webkit-transition: none;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+     transition: none; 
+    border-color: #80BCA6;
+    width: 35%;
+    margin:0 auto;
+    margin-left: 17%;
+    font-size: 1em;
+}
+
+#comment
+{
+    border-color: #80BCA6;
+        height: 24em;
+    width: 35%;
+    margin:0 auto;
+        margin-left: 16%;
+    font-size: 1em;
+}
+
+
+.has-error .form-control {
+    border-color: #a94442 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.has-success .form-control {
+    border-color: #3c763d;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#emaildiv{
+    width: 100%;
+}
+
+
+
+
+
+.form-group {
+    width: 85%;
+
+    margin-left: 17.9% !important;
+        margin-top: 75px;
+
+}
+
+.help-block.with-errors
+{
+            width: 176%;
+}
+
+#emailerror{
+    width: 143%;
+}
+
+
+.slick-prev {
+    top: 53% !important;
+    margin-top: 0%;
+    left: 4% !important;
+    z-index: 999;
+}
+.slick-next {
+    top: 53% !important;
+    right: 8% !important;
+    z-index: 999;
+}
+
+
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+    opacity: 1 !important;
+        font-family: monospace !important;
+    color: rgb(255, 200, 128) !important;
+}
+
+.slick-prev:before {
+    content: '<' !important;
+}
+.slick-next:before {
+    content: '>' !important;
+}
+
+.slick-slide img {
+    max-width: 892px;
+    width: 100% !important;
+}
+
+
+#inputSuccess3,#inputGroupSuccess2,#comment{
+    width: 493px;
+    
+}
+
+#bodyform{
+    display: inline-block;
+        margin-left: -207px;
+        margin-top: -6%;
+}
+
+
+
+/* HOVER */
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+   
+    
+
+  }
+  
+  .hovereffect:hover img {
+    /* filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter'); */
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background-color: transparent;
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+  }
+  
+  .hovereffect a, .hovereffect p {
+    color: #FFF;
+    padding: 1em 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }
+  
+  .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+
+/* fin HOVER */
+
+
+
+.lineunders{
+     width: 59px;
+    height: 8px;
+    z-index: 1;
+    position: absolute;
+    
+    
+}
+
+.greenline{
+     background: green;
+}
+
+
+#blbiggreenform {
+    width: 33px;
+    height: 33px;
+    width: 70px;
+    height: 70px;
+    background-color: #80bca6;
+    position: absolute;
+    left: 18%;
+    margin-top: -510px;
+}
+
+
+#blsmallyellowform{
+    width: 45px;
+    height: 45px;
+    background-color: #ffc880;
+    position: absolute;
+    margin-top: -970px;
+    left: 5%;
+}
+
+#blbigyellowform {
+    width: 85px;
+    height: 85px;
+    background-color: #ffc880;
+    position: absolute;
+    left: 88%;
+    margin-top: -195px;
+}
+
+#blsmallgreenform {
+       left: 82%;
+    width: 43px;
+    height: 43px;
+    margin-top: -350px;
+    margin-left: -3%;
+}
+
+.socf{
+    margin-right: 1%;
+}
+
+.lastcontact{
+        margin-left: 4%;
+    margin-top: 0.5%;
+}
+
+
+#inputSuccess3,#inputGroupSuccess2,#comment
+{
+    box-shadow:none;
+   
+
+}
+
+#inputSuccess3,#inputGroupSuccess2
+{
+    box-shadow:none;
+    height: 36px;
+    margin-top: 6%;
+
+}
+
+
+
+@-moz-document url-prefix() 
+    {
+          #blockaboutmegreen {
+                    margin-left: 12%;
+                    margin-top: -78%;
+                }
+        
+        
+        #blockaboutmeyellow {
+            margin-top: 78%;
+            margin-left: 84%;
+        }
+      
+    }
+
+
+
+
+#fullimagediv {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+  margin: auto;
+    z-index: 99999999999999999999999;
+        background: #ffc880a3;
+    
+    display: none;
+    
+}
+
+
+#mymy{
+      border: 3px solid #2f755b;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+      position: fixed;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.fa-close{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 3em;
+    -moz-osx-font-smoothing: grayscale;
+        margin-left: 89%;
+    margin-top: 1%;
+    color: #2f755b;
+    cursor: pointer;
+}
+
+
+#customnext{
+        font-size: 50px !important;
+    opacity: 1 !important;
+    font-family: monospace !important;
+    color: #2f755b !important;
+    background: transparent;
+    margin-top: 469px;
+    margin-left: 92%;
+    border: none;
+    position: fixed;
+    z-index: 999999999999999999;
+}
+
+#customnext:before{
+
+    content: '>' !important;
+
+}
+
+#customprevious{
+        font-size: 50px !important;
+    opacity: 1 !important;
+    font-family: monospace !important;
+    color: #2f755b !important;
+    background: transparent;
+    margin-top: 469px;
+    margin-left: 6%;
+    border: none;
+    position: fixed;
+    z-index: 999999999999999999;
+}
+
+#customprevious:before{
+
+    content: '<' !important;
+
+}
+
+.contenidomodal {
+    border-radius: 0%;
+    background: #80bca6;
+    text-align: center;
+    font-family: "MONTSERRAT-BOLD";
+}
+
+.cabeceramodal {
+    border-radius: 0%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+    background: transparent;
+    color: #ffc578;
+    font-family: "MONTSERRAT-BOLD";
+
+}
+
+
+
+    #cruzcerrar {
+    margin-top: 2px;
+    color: #ffc578;
+    opacity: 1;
+    margin-right: -55%;
+    }
+
+
+.cuerpomodal {
+    font-family: "MONTSERRAT-BOLD";
+    color: white;
+    }
+
+#botonaceptar {
+        float: left;
+    margin-left: 43%;
+    border-radius: 0%;
+    background: white;
+    color: #2d7d0d;
+}
+
+
+#myModal{
+/*        display: block;*/
+    font-size: 1.4em;
+}
+
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px #ffc578;
+    box-shadow: 0 5px 15px #ffc578;
+}
+
+
+
+
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+    .navbar-collapse {
+    width: 118% !important;
+    margin-top: 1em !important;
+    margin-left: -9.5% !important;
+    }
+
+.navbar-nav>li {
+    float: none;
+    text-align: center;
+    display: inline;
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 120%;
+    font-size: 17px;
+    margin-left: 0px;
+    width: 537%;
+    max-width: 537%;
+    }
+    
+    .hovereffect .overlay {
+    transform: inherit;
+    }
+    
+    #blockheader {
+    margin-top: -4.5%;
+            margin-left: -1%;
+    }
+    
+    #blockheaderyellow {
+    margin-top: -3.9%;
+}
+    
+    
+    #sociallinks {
+    margin-left: 45%;
+}
+    
+    
+
+    
+   #textoportada {
+    font-size: 3.1em;
+    width: 42%;
+}
+    
+    
+    
+    #blockmsjtransp {
+    width: 42%;
+    height: 28%;
+    background-color: black;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    z-index: 1;
+    position: absolute;
+    margin-left: 57.8%;
+    margin-top: -33%;
+    display: inline;
+}
+    
+    
+    #linetextoportada {
+        font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 61%;
+    right: 15%;
+       margin-top: 18.1%;
+    color: white;
+    font-size: 3.5em;
+    line-height: 1.1em;
+    z-index: 2 !important;
+    width: 8.2%;
+    top: inherit;
+    }
+    
+    #blockaboutmeyellow+img{
+        margin-top: 15%;
+    }
+    
+    #blockPORTADAgreen {
+    margin-left: 86%;
+    margin-top: 39%;
+    z-index: 3;
+    }
+    
+    #blockPORTADAyellow {
+    margin-left: 92%;
+    margin-top: 38%;
+    z-index: 3;
+    }
+    
+    
+        .aboutmeline {
+            margin-left: 0%;
+            top: -97%;
+            left: 40%;
+        }
+        #aboutmetitle {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            position: absolute;
+            top: -101.5%;
+            left: 40%;
+        }
+   
+        #blockaboutmegreen {
+            margin-top: -32%;
+        }
+    
+        #blockaboutmeyellow {
+            margin-top: 46%;
+            margin-left: 84%;
+        }
+    
+    
+    
+    
+    
+    
+    
+    #cuadricula_first_row {
+    margin-bottom: 0%;
+    }
+    
+    #cuadricula_second_row {
+    margin-bottom: -20%;
+    }
+    
+    .columncuadricula{
+        margin-bottom: 4%;
+    }
+    
+    .maternitytitle {
+        margin-top: 40%;
+        margin-bottom: 5%;
+    }
+    
+    .columncuadricula {
+    margin-left: -5px;
+    margin-right: 0%;
+    }
+    
+    #aboutmesection {
+        margin-bottom: -8%;
+        height: 100%;
+    }
+    
+    .newborntitle {
+    margin-top: -80%;
+    margin-bottom: -6%;
+    }
+    
+    .childrentitle {
+    margin-top: 55%;
+    margin-bottom: 7%;
+    }
+    
+    
+    .familytitle {
+    margin-top: -85%;
+    margin-bottom: 84%;
+    }
+    
+    .form-horizontal .has-feedback .form-control-feedback {
+        right: -121px;
+    }
+    
+    #blbiggreenform {
+    left: 11%;
+    }
+    
+    #blsmallgreenform {
+    margin-left: 6%;
+    }
+    
+    
+    
+    
+    
+    #yo{
+        margin-bottom: -4%;
+    }
+    
+    
+    #maternity_title {
+    text-align: center;
+    margin-top: 32%;
+    margin-bottom: 12%;
+    }
+    
+                #customnext {
+                        top: 47% !important;
+                        margin-top: 0% !important;
+                        margin-left: 0% !important;
+                        position: relative !important;
+                        left: 0% !important;
+                        display: inline !important;
+                }
+
+                #customprevious {
+                    margin-top: 0% !important;
+                    margin-left: 0% !important;
+                    position: relative !important;
+                    top: 38% !important;
+                    left: -46% !important;
+                display:inline !important;
+                    }
+    
+    
+    
+        
+}
+
+@media (min-width: 768px) and (max-width: 870px)
+{
+    .navbar-nav>li {
+    font-size: 15px;
+
+    }
+    
+    .navbar-collapse {
+    width: 120% !important;
+    margin-top: 1em !important;
+    margin-left: -70px !important;
+    }
+    
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    }
+}
+
+@media (max-width: 991px)
+{
+        #columna2{
+                background: green;
+        }
+    #yellowbetweensq,#greenbetweensq,#blockentre1yellow,#blockentre2yellow {
+  
+    display: none;
+    }
+    
+    .columncuadricula {
+    margin-bottom: 9%;
+    }
+    
+    
+    #newborn_title {
+    margin-top: -86%;
+    text-align: center;
+    margin-bottom: 63%;
+    }
+    
+    
+    #columna1maternity{
+        margin-bottom: 14%;
+    }
+    
+    
+    #children_title {
+    margin-top: 14%;
+    text-align: center;
+    margin-bottom: 9%;
+    }
+    
+    #family_title {
+    margin-top: -84%;
+    text-align: center;
+    margin-bottom: 80%;
+    }
+    
+    
+    #children {
+    margin-bottom: 26%;
+    }
+    
+    #customprevious {
+
+    margin-top: 368px;
+
+    }
+
+    #customnext {
+
+    margin-top: 368px;
+
+    }
+    
+    #columna1maternity,#columna1newborn,#columna1children,#columna1family {
+    
+    margin-left: 33px;
+    }
+    
+    
+}
+
+
+@media (min-width: 695px) and (max-width: 767px){
+    #customnext {
+    top: 46% !important;
+    margin-top: 0% !important;
+    margin-left: 0% !important;
+    position: relative !important;
+    left: -1% !important;
+    display: inline !important;
+}
+}
+
+
+/* Mobile */
+@media (max-width: 767px)
+{
+   .hovereffect .overlay {
+    transform: inherit;
+    }
+    
+    #sociallinksmobile{
+    display: inherit;
+        text-align: center;
+    }
+    
+    #textoportada{
+        display: none;
+    }
+    #btnmenubar {
+    background: #ffc880;
+    border-color: white;
+    border-radius: 0px;
+            margin-top: -30px;
+    }
+    #btnmenubar:hover {
+    background: #ffc880;
+    border-color: white;
+    border-radius: 0px;
+    }
+    
+    #cuadricula_first_row,#cuadricula_second_row {
+    margin-left: -5%;
+    }
+    
+    #cuadricula_first_row {
+    margin-bottom: 0%;
+    
+    }
+    
+    
+    .navbar-inverse .navbar-nav>li>a {
+        columns: #616160;
+        display: inherit;
+        text-align: center !important;
+        display: block;
+        font-family: "MONTSERRAT-SEMIBOLD";
+        font-size: 100%;
+        color: #64a28b;
+    }
+    .famenu {
+         display: inline;
+    float: right;
+    }
+    
+    
+    .navbar-collapse {
+    border: 1px solid transparent;
+    margin-left: 0% !important;
+    border-color: #ffc880 !important; 
+    text-align: center;
+    width: 100%;
+    border-width: 4px;
+    margin-top: 3%;
+    }
+    
+    
+    #textoportada {
+    font-size: 2em;
+    width: 100%;
+    font-family: "MONTSERRAT-SEMIBOLD";
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-top: 12%;
+    color: white;
+    z-index: 2;
+    line-height: 1.2em;
+    text-align: center;
+    color: #ffc880;
+    text-shadow: 1px 1px 1px #5f411b;
+    font-style: italic;
+}
+
+#blockmsjtransp {
+/*
+    width: 100%;
+    height: 17%;
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+    z-index: 1;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    display: inline;
+*/
+    display: none;
+}
+    
+    #textoportada + img{
+        opacity: 1;
+    }
+    
+    #blockheaderyellow {
+    width: 40px;
+    height: 40px;
+    margin-left: 6.8%;
+    margin-top: -18px;
+    }
+    
+    #blockPORTADAyellow {
+    margin-left: 81%;
+    margin-top: 35%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    }
+    
+    #blockPORTADAgreen {
+   margin-left: 71%;
+    margin-top: 40%;
+    width: 33px;
+    height: 33px;
+    z-index: 3;
+    top: 55%;
+        display: none;
+    }
+    
+    #blockheader {
+        margin-left: 10.6%;
+    margin-top: 17%;
+        display: none;
+    }
+    
+    #mynavbar{
+        margin-bottom: 0%;
+    }
+    
+    #linetextoportada {
+
+        display: none;
+        }
+    
+    
+    #sociallinks {
+    display: none;
+    }
+    
+    #sociallinksmobile
+    {
+    display: inline;
+    position: relative;
+    width: 100%;
+    float: right;
+    text-align: center;
+        margin-top: 2%;
+    }
+    .socllink>img{
+        width: 27px;
+    }
+    
+    #logo {
+    margin-bottom: 6%;
+    }
+    
+    #aboutmetitle{
+            margin-top: -876px;
+    }
+    #blockme {
+    width: 100%;
+    margin-top: 0%;
+    }
+    
+    .pharagraphs {
+    font-family: "MONTSERRAT-LIGHT";
+    font-size: 1em;
+    color: #616160;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    width: 100%;
+    text-align: center;
+    text-indent: 20px;
+    margin: auto;
+    line-height: 200%;
+}
+    
+    .samehight {
+    height: auto;
+}
+
+#aboutmetitle {
+        margin-top: -106%;
+}
+    
+   #columna1aboutme {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    }
+    
+    #yo{
+        margin-bottom: 104%;
+    }
+    
+    .aboutmeline {
+    text-align: cener;
+    position: relative;
+    margin: 0 auto;
+    left: -80px;
+    }
+    
+    #blockyellowcuadricula2 {
+     z-index: 3;
+    width: 30px;
+    height: 30px;
+    margin-top: 1%;
+    left: 88%;
+    }
+        #blockyellow1cuadricula3 {
+       z-index: 3;
+    left: 4%;
+    top: -5%;
+    width: 40px;
+    height: 40px;
+    }    
+    
+    #blockyellow2cuadricula3{
+        display: none;
+    }
+    
+    #blockgreen1cuadricula4{
+        display: none;
+    }
+    
+    #blockgreencuadricula3 {
+    z-index: 3;
+    left: 1%;
+    top: 111%;
+    }
+    
+    #blockmaternityyellow{
+        display: none;
+    }
+    
+    #blockmaternitygreen{
+        display: none;
+    }
+    #blocknewborngreen,#blocknewbornyellow,#blockchildrengreen,#blockchildrenyellow
+    {
+        display: none;
+    }
+    .greentitles {
+    color: #80bca6;
+    font-family: "MONTSERRAT-BOLD";
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.1em;
+    font-size: 1.7em;
+    /* margin: auto; */
+    }
+    
+    #maternity_title{
+        margin-bottom: 15%;
+    }
+    #newborn {
+    margin-top: 32%;
+    }
+    
+    #family {
+        margin-bottom: 15%;
+        margin-top: 53%;
+    }
+    .carr{
+        margin-left: 4%;
+    }
+    
+    #maternidadline {
+        margin-left: -220px;
+    margin-top: 34px;
+    }
+    
+    #newbornline {
+    margin-left: -286px;
+    margin-top: 27px;
+    }
+    
+    #familyline {
+    margin-top: 34px;
+    width: 71px;
+    display: inline;
+    margin-left: -138px;
+    }
+    
+    #childrenline {
+    margin-top: 32px;
+    width: 71px;
+    display: inline;
+    margin-left: -106px;
+    }
+    
+    #maternity {
+    margin-bottom: 56%;
+    }
+    
+    #newborn {
+    margin-bottom: 42%;
+    }
+    
+        #children {
+    margin-bottom: 74%;
+    }
+    
+   
+    
+    #blockaboutmeyellow {
+    margin-top: 34%;
+    margin-left: inherit;
+    }
+    
+    
+    #greenrow {
+    margin: 0 auto;
+    margin-bottom: 11%;
+    }
+    
+    #contactlabel {
+    font-size: 3em;
+    }
+    
+    #blsmallyellowform {
+    width: 35px;
+    height: 35px;
+    background-color: #ffc880;
+    position: absolute;
+    margin-top: -970px;
+    left: 0%;
+    margin-left: 46%;
+    }
+    
+    #contactline {
+    width: 81px;
+    display: inline;
+    margin-left: 20%;
+    background: #87C6B0;
+    }
+    
+    #titleform {
+    margin-bottom: 5%;
+    margin-top: 9%;
+    }
+    
+    
+    #bodyform {
+display: inline;
+    }
+    
+    .form-group {
+    width: 100%;
+    margin: 0 auto;
+     margin-left: 0% !important; 
+    margin-top: 75px;
+    text-align: center;
+    }
+    
+    .form-horizontal .control-label {
+    font-family: "MONTSERRAT-LIGHT";
+    letter-spacing: 0.2em;
+    padding-top: 7px;
+    /* margin-bottom: -1px; */
+    margin-bottom: -31px;
+    text-align: center;
+    width: 100%;
+    float: none;
+    }
+    
+    #blbiggreenform {
+    display: none;
+    }
+    #labelemail {
+    left: inherit;
+    }
+    
+    #lblcomment {
+    left: 0%;
+    }
+    
+    #inputSuccess3, #inputGroupSuccess2 {
+    width: 70%;
+    }
+    .form-horizontal .has-feedback .form-control-feedback {
+    right: 0px;
+    }
+    
+    .help-block.with-errors {
+    width: 100%;
+    margin-top: 8%;
+        margin-bottom: 16%;
+    }
+    
+    #emailerror {
+    width: 100%;
+    }
+    
+    #comment{
+        width: 71%;
+    }
+    
+    #blsmallgreenform {
+    left: 82%;
+    width: 43px;
+    height: 43px;
+    margin-top: -564px;
+    margin-left: -65%;
+    }
+    #blbigyellowform {
+    width: 43px;
+    height: 43px;
+    background-color: #ffc880;
+    position: absolute;
+    left: 85%;
+    margin-top: 74%;
+    }
+    
+    #btnsubmit {
+    font-size: 2em;
+    padding: 6px 224px;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: 3%;
+    width: 94%;
+    padding: inherit;
+    padding-bottom: 6px;
+    float: left;
+    margin-top: 3%;
+    }
+    .lastcontact {
+    margin-left: 297px;
+    margin-top: 4%;
+    }
+    
+    #children_title {
+    margin-top: 14%;
+    text-align: center;
+            margin-bottom: 12%;
+    }
+    #blsmallyellowform{
+        display: none;
+    }
+    
+    
+    #columna1maternity, #columna1newborn, #columna1children, #columna1family {
+            margin-left: -2.9%;
+        }
+    #customnext {
+    top: 38%;
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    left: 46%;
+	display:inline !important;
+}
+
+#customprevious {
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    top: 38%;
+    left: -46%;
+display:inline !important;
+    }
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+ 
+/*    Customs */
+@media (min-width:991px) and (max-width: 1200px) 
+{
+   .navbar-nav>li {
+    font-size: 130%;
+    margin-left: -0.1%;
+    margin-top: 2%;
+    }
+    #navbar-1{
+            margin-top: 2.3%;
+    }
+    #aboutme,#columna1aboutme
+    {
+        width: 100%;
+    }
+    
+    
+            #aboutmetitle {
+            margin-top: 0%;
+            margin-bottom: 0%;
+            position: absolute;
+            top: -112%;
+            left: 43%;
+        }
+
+
+
+        .aboutmeline {
+            margin-left: 0%;
+            top: -107%;
+            left: 43%;
+        }
+
+
+        #aboutmesection {
+            margin-top: 15%;
+            margin-bottom: 0%;
+        }
+    
+    #textoportada{
+        font-size: 3em;
+        width: 30%;
+    }
+    #linetextoportada{
+        top: 541px;
+    width: 81px;
+    }
+
+    
+}
+
+@media (max-width:320px)
+{
+    
+    #newbornline {
+    margin-left: -144px;
+    margin-top: 4px;
+    }
+    
+    
+    
+}
+
+/*
+@media (device-width:768px)
+{
+   
+    
+}
+*/
+
